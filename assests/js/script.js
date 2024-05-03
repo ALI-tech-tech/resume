@@ -135,7 +135,8 @@ function showSkills(skills) {
                 <img src=${skill.icon} alt="skill" />
                 <span>${skill.name}</span>
               </div>
-            </div>`
+            </div>
+        </div>`
     });
     skillsContainer.innerHTML = skillHTML;
 }
